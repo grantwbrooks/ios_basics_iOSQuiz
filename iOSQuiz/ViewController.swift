@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         if answer_label.isHidden == true {
             answer_label.isHidden = false
         }
+        else { answer_label.isHidden = true}
     }
 
     @IBAction func nextButtonPressed(_ sender: UIButton) {
